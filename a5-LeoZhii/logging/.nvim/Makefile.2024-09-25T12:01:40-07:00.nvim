@@ -1,0 +1,10 @@
+all: logging
+
+run: logging
+	./logging
+
+logging: logging.c
+	clang -o logging logging.c
+
+clean:
+	rm logging

@@ -1,0 +1,2 @@
+# Print out file information about every .c file
+print : $(wi

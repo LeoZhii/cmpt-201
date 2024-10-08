@@ -1,0 +1,18 @@
+CC = clang
+
+all: assertions
+
+run:
+	./assertions
+
+assertions: main.o assertions.o
+	$(CC) main.o assertions.o -o assertions
+
+main.o: main.c
+	$(CC) main.c -o mian.o
+
+assertions.o: abs.c
+	$(CC) abs.c -o assertions.o
+
+clean:
+	rm *.o

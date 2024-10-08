@@ -1,0 +1,2 @@
+memory_mapping: memory_mapping.c
+	clang -o memory_mapping memory_mapping.c

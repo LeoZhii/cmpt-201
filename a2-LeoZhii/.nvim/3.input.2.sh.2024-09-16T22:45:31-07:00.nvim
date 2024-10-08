@@ -1,0 +1,7 @@
+#!/bin/bash
+
+LINES=$/dev/stdin
+
+THIRDLINE=$(head -n 3 ./stdin | tail -n 1)
+
+echo "$THIRDLINE"

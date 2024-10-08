@@ -1,0 +1,6 @@
+all : blah
+
+blah ::
+	echo "hello"
+
+blah :: "hello again"

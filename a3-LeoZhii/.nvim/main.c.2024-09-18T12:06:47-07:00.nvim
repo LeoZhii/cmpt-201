@@ -1,0 +1,7 @@
+#include "other.h"
+
+int main() {
+  invoke();
+
+  return 0;
+}

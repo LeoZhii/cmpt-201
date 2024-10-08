@@ -1,0 +1,19 @@
+The cow jumped over the moon
+
+This is nvim!
+
+delete typo using x
+
+going to add some more lines so I can move around
+
+movement commands planning:
+1. ^ to go back to beginning of line
+2. hjkl to move around file
+3. $ to move file to end of line
+4. nG to move to the nth line
+5. G to move to the last line
+6. b to move back to the beginning of the previous word
+
+Now time to play around with the delete commands
+
+This is a demo sentence meant for deletion.

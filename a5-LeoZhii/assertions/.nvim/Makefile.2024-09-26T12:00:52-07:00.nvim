@@ -1,0 +1,7 @@
+all: assertions
+
+assertions: assertions.o
+	clang assertions.o -o assertions
+
+assertions.o: assertions.c
+	clang abs.c -o assertions.o

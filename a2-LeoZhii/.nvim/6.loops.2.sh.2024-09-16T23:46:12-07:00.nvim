@@ -1,0 +1,9 @@
+#!/bin/bash
+
+DIR=$1
+
+find "$DIR"
+
+while read -r entry
+do
+  echo "$entry"

@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+void invoke() {
+  printf("Other invoked");
+
+}

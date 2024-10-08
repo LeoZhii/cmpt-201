@@ -1,0 +1,7 @@
+main_dump: main_dump.c
+	clang -o main_dump main_dump.c
+
+data_and_bss: data_and_bss.c
+	clang -o data_and_bss data_and_bss.c
+
+all: main_dump data_and_bss

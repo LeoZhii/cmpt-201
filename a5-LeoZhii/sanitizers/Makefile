@@ -1,0 +1,8 @@
+sanitizers: main.c abs.c
+	clang -fsanitize=undefined -o sanitizers main.c abs.c
+
+run: sanitizers
+	./sanitizers
+
+clean:
+	rm -f sanitizers

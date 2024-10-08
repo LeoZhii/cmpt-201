@@ -1,0 +1,5 @@
+memory_mapping: memory_mapping.c
+	clang -o memory_mapping memory_mapping.c
+
+use_after_free: use_after_free.c
+	clang -fsanatize

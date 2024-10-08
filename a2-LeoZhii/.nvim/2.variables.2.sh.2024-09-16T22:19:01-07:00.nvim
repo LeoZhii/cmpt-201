@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# random words directory
+# /usr/share/dict/words
+
+RANNUM=$RANDOM
+
+WORDLIST=$(grep -E "^.{$1}$" /usr/share/dict/words)
+
+RANWORD=$(echo "$WORDLIST"| shuf -n 1 )
+
+echo "$RANWORD"

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# random words directory
+# /usr/share/dict/words
+
+RANNUM=$RANDOM
+
+
+
+
+RANWORD=$(grep '^.{$1}$' | head -n $RANNUM /usr/share/dict/words | tail -n 1 )
+
+echo "$RANWORD"

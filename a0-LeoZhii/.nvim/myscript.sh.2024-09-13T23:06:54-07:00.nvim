@@ -1,0 +1,8 @@
+#!/bin/zsh
+# My first script!
+# Leo Zhi
+# September 13, 2024
+
+name='Leo'
+echo Hello $name, These are the files in your current directory:
+ls

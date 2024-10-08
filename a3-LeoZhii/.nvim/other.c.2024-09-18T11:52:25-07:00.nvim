@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+  printf("Other invoked");
+
+  return 0;
+}
+

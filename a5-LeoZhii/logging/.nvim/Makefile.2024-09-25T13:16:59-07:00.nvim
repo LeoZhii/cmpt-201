@@ -1,0 +1,12 @@
+CC = clang
+
+all: logging
+
+run: logging
+	./logging
+
+logging: logging.c log.c log.h
+	$(CC) -c logging.c log.c -o logging
+
+clean:
+	rm logging

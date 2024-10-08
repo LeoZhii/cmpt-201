@@ -1,0 +1,8 @@
+all: assertions
+
+assertions: main.c abs.c
+	clang -c main.c abs.c -o assertions
+
+
+clean:
+	rm *.o

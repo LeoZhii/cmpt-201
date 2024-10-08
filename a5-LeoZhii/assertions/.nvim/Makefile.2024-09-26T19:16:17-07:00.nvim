@@ -1,0 +1,10 @@
+all: assertions
+
+run:
+	./assertions
+
+assertions: main.c abs.c
+	
+
+clean:
+	rm *.o

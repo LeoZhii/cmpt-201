@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# random words directory
+# /usr/share/dict/words
+
+~/usr/share/dict/words

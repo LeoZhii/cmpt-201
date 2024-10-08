@@ -1,0 +1,2 @@
+sanitizers: main.c abs.c
+	clang -o sanitizers main.c abs.c

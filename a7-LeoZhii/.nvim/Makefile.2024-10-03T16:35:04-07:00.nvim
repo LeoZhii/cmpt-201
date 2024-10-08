@@ -1,0 +1,8 @@
+memory_mapping: memory_mapping.c
+	clang -o memory_mapping memory_mapping.c
+
+memory_leak: memory_leak.c
+	clang -o memory_leak memory_leak.c
+
+use_after_free: use_after_free.c
+	clang -fsanatize

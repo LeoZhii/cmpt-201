@@ -1,0 +1,11 @@
+#!/bin/bash
+
+for value in "$1"/*
+do
+  if [ -d "$value" ]
+  then
+    echo "$value" find "$value" -type f | wc -l
+  else
+    echo "$value" stat -c %s "$value"
+  fi
+done

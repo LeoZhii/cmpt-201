@@ -1,0 +1,5 @@
+main_dump: main_dump.c
+	clang -o main_dump main_dump.c
+
+run: main_dump
+	./main_dump

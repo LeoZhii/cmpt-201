@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# random words directory
+# /usr/share/dict/words
+
+RANNUM=$RANDOM
+
+echo head -$RANNUM /usr/share/dict/words | tail -$RANNUM 1
+/usr/share/dict/words

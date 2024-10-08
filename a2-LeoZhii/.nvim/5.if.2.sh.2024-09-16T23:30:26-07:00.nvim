@@ -1,0 +1,15 @@
+#!/bin/bash
+
+
+if [ -r "$1" && -w "$1" ]
+then
+  echo true, true
+elif [ -r "$1" ]
+  then
+    echo true, false
+elif [ -w "$1" ]
+  then
+    echo false, true
+else
+  echo false, false
+fi

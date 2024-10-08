@@ -1,0 +1,4 @@
+#include <stdio.h>
+
+// This function invokes a function that prints "funciton invoked" in function.c
+void invoke() {};
